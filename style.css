@@ -72,7 +72,29 @@ a,
     transition: all 0.3s ease; 
 }
 
-
+/*Modal */
+.modal-contenido{
+	background-color:aqua;
+	width:300px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+  }
+  .modal{
+	background-color: rgba(0,0,0,.8);
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:0;
+	pointer-events:none;
+	transition: all 1s;
+  }
+  #miModal:target{
+	opacity:1;
+	pointer-events:auto;
+  }
 
 /* ================ Typography ================== */
 h1,
@@ -353,6 +375,18 @@ ul.cart-list>li.total>a.btn:hover {
 }
 .slider-bg3{
 	background: url("assets/img/slider-bg/3.jpg") no-repeat;
+}
+.slider-bg4{
+	background: url("assets/img/slider-bg/4.jpeg") no-repeat;
+}
+.slider-bg5{
+	background: url("assets/img/slider-bg/5.jpeg") no-repeat;
+}
+.slider-bg6{
+	background: url("assets/img/slider-bg/6.jpeg") no-repeat;
+}
+.slider-bg7{
+	background: url("assets/img/slider-bg/7.jpeg") no-repeat;
 }
 .homepage-slider{
 	width: 100%;

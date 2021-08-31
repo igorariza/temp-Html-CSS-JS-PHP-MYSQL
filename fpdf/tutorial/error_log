@@ -1,0 +1,10 @@
+[24-Aug-2021 02:18:03 UTC] PHP Warning:  fopen(../assets/img/logo.png): failed to open stream: No such file or directory in /home/alfredob1/colcentral.edu.co/fpdf/fpdf.php on line 1257
+[24-Aug-2021 02:18:03 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../assets/img/logo.png in /home/alfredob1/colcentral.edu.co/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/alfredob1/colcentral.edu.co/fpdf/fpdf.php(1259): FPDF->Error('Can't open imag...')
+#1 /home/alfredob1/colcentral.edu.co/fpdf/fpdf.php(885): FPDF->_parsepng('../assets/img/l...')
+#2 /home/alfredob1/colcentral.edu.co/fpdf/tutorial/tuto2.php(10): FPDF->Image('../assets/img/l...', 10, 8, 33)
+#3 /home/alfredob1/colcentral.edu.co/fpdf/fpdf.php(334): PDF->Header()
+#4 /home/alfredob1/colcentral.edu.co/fpdf/tutorial/tuto2.php(36): FPDF->AddPage()
+#5 {main}
+  thrown in /home/alfredob1/colcentral.edu.co/fpdf/fpdf.php on line 271
