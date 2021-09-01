@@ -36,7 +36,7 @@ WHERE documento_estudiante=$documento",$cn);
 $nombre_estudiant=  mysql_fetch_array($nombre_estudiante);
 ?>  
 <style type="text/css">
-<!--
+
 table
 {
 	
@@ -69,7 +69,7 @@ td.col1
 	
 }
 p {margin: 2px 0;}
--->
+
 </style>
 <page  backcolor="#FEFEFE"  footer="date;heure;page">
 <p align="center" style="font-weight: bold; font-size: 16pt;">
