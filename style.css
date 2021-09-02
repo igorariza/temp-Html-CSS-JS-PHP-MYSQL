@@ -368,7 +368,7 @@ ul.cart-list>li.total>a.btn:hover {
 /* ================ Slider area ================== */
 
 .slider-bg1{
-	background: url("assets/img/slider-bg/1.jpg") no-repeat;
+	background: url("assets/img/slider-bg/imgcupos.png") no-repeat;
 }
 .slider-bg2{
 	background: url("assets/img/slider-bg/2.jpg") no-repeat;
@@ -387,6 +387,9 @@ ul.cart-list>li.total>a.btn:hover {
 }
 .slider-bg7{
 	background: url("assets/img/slider-bg/7.jpeg") no-repeat;
+}
+.slider-bg8{
+	background: url("assets/img/slider-bg/imgcupos.png") no-repeat;
 }
 .homepage-slider{
 	width: 100%;
